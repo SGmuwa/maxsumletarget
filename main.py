@@ -149,6 +149,7 @@ def main() -> None:
             [
                 f"target = {args.target}",
                 f"best_sum = {best_sum}",
+                f"target - best_sum = {args.target - best_sum}",
                 f"subset = {expr}",
             ]
         )
